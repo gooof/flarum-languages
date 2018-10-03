@@ -1,6 +1,8 @@
 # flarum-languages
 This repository is daily synced with our Transifex project. It includes all selectable languages.
 
+Untranslated entries in all languages except english will filled with english source strings.
+
 
 .com Internationalisation (i18n)
 ================
