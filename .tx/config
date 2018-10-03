@@ -2,8 +2,8 @@
 host = https://www.transifex.com
 lang_map = zh_TW:zh_cmn_hant, zh:zh_cmn_hans, pt_BR:pt_br, sr_RS:sr_x_cyr, es_AR:es_ar, es_MX:es_mx
 
-[flarum.all]
+[flarum.core.yml]
 source_file = language/en/
 file_filter = language/<lang>/
 source_lang = en
-type = YAML_GENERIC
+type = YML
