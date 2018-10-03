@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Farben
+      delete_tag_button: Löschen
+      delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
+      description_label: Beschreibung
+      hide_label: Von allen Diskussionen ausblenden
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Ordne die Liste der Kategorien um die Diskussionen zu organisieren.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Erlaube Kategorien zu ändern
+      restrict_by_tag_heading: Durch Kategorien beschränken
+      tag_discussions_label: Diskussion markieren
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " zu "
+      required_primary_heading: Anzahl der benötigten Hauptkategorien
+      required_primary_text: Gib die minimale und die maximale Anzahl von Hauptkategorien an, die einer Diskussion hinzugefügt werden können.
+      required_secondary_heading: Anzahl der benötigten Unterkategorien
+      required_secondary_text: Gib die minimale und die maximale Anzahl von Unterkategorien an, die einer Diskussion hinzugefügt werden können.
+      title: Kategorie-Einstellungen
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Kategorien sind dazu da, um Diskussionen zu strukturieren. Hauptkategorien sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Unterkategorien haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Hauptkategorien
+      secondary_heading: Unterkategorien
+      settings_button: Einstellungen
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Wähle einen Hauptkategorie|Wähle {count} Hauptkategorien"
+      choose_secondary_placeholder: "Wähle eine Kategorie mehr|Wähle {count} Kategorien mehr"
+      edit_title: "Kategorien für {title} bearbeiten"
+      submit_button: => core.ref.okay
+      title: Kategorien für die Diskussion auswählen
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Kategorien auswählen
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Kategorien ändern
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Mehr ...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: nicht markiert
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
+      added_and_removed_tags_text: "{username} hat die {tagsAdded} hinzugefügt und die {tagsRemoved} entfernt."
+      removed_tags_text: "{username} hat die {tagsRemoved} entfernt."
+      tags_text: "{tags} Kategorie|{tags} Kategorien"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Gelöscht
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Kategorie erstellen
+    name: Name
+    tags: Kategorien

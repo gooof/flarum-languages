@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Beiträge melden
+      view_flags_label: Zeige gemeldete Beiträge
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Community Richtlinien URL
+      title: Flags Einstellungen
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Danke für das melden dieses Beitrages. Unsere Moderator*innen werden danach schauen.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Unangebracht
+      reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>Community Richtlinien</a>."
+      reason_off_topic_label: "Nicht zur Diskussion passend"
+      reason_off_topic_text: Dieser Beitrag hat keinen Bezug zu dieser Diskussion und sollte in eine andere Diskussion verschoben werden.
+      reason_other_label: Sonstiges
+      reason_spam_label: Spam
+      reason_spam_text: Dieser Beitrag ist Werbung oder Spam.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Keine Meldung
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Dismiss Flag
+      flagged_by_text: "{username} ist gemeldet"
+      flagged_by_with_reason_text: "{username} gemeldet als {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Melden
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Beitrag melden
+    flagged_posts: Gemeldete Beiträge

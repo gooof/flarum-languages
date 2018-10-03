@@ -2,8 +2,104 @@
 host = https://www.transifex.com
 lang_map = zh_TW:zh_cmn_hant, zh:zh_cmn_hans, pt_BR:pt_br, sr_RS:sr_x_cyr, es_AR:es_ar, es_MX:es_mx
 
-[flarum.core.yml]
-source_file = language/en/
-file_filter = language/<lang>/
+[flarum.coreyml]
+file_filter = lang-<lang>/core.yml
+source_file = lang-en/core.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-akismetyml]
+file_filter = lang-<lang>/flarum-akismet.yml
+source_file = lang-en/flarum-akismet.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-approvalyml]
+file_filter = lang-<lang>/flarum-approval.yml
+source_file = lang-en/flarum-approval.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-auth-facebookyml]
+file_filter = lang-<lang>/flarum-auth-facebook.yml
+source_file = lang-en/flarum-auth-facebook.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-auth-githubyml]
+file_filter = lang-<lang>/flarum-auth-github.yml
+source_file = lang-en/flarum-auth-github.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-auth-twitteryml]
+file_filter = lang-<lang>/flarum-auth-twitter.yml
+source_file = lang-en/flarum-auth-twitter.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-flagsyml]
+file_filter = lang-<lang>/flarum-flags.yml
+source_file = lang-en/flarum-flags.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-likesyml]
+file_filter = lang-<lang>/flarum-likes.yml
+source_file = lang-en/flarum-likes.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-lockyml]
+file_filter = lang-<lang>/flarum-lock.yml
+source_file = lang-en/flarum-lock.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-mentionsyml]
+file_filter = lang-<lang>/flarum-mentions.yml
+source_file = lang-en/flarum-mentions.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-pusheryml]
+file_filter = lang-<lang>/flarum-pusher.yml
+source_file = lang-en/flarum-pusher.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-statisticsyml]
+file_filter = lang-<lang>/flarum-statistics.yml
+source_file = lang-en/flarum-statistics.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-stickyyml]
+file_filter = lang-<lang>/flarum-sticky.yml
+source_file = lang-en/flarum-sticky.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-subscriptionsyml]
+file_filter = lang-<lang>/flarum-subscriptions.yml
+source_file = lang-en/flarum-subscriptions.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-suspendyml]
+file_filter = lang-<lang>/flarum-suspend.yml
+source_file = lang-en/flarum-suspend.yml
+source_lang = en
+type = YML
+
+[flarum.flarum-tagsyml]
+file_filter = lang-<lang>/flarum-tags.yml
+source_file = lang-en/flarum-tags.yml
+source_lang = en
+type = YML
+
+[flarum.validationyml]
+file_filter = lang-<lang>/validation.yml
+source_file = lang-en/validation.yml
 source_lang = en
 type = YML
