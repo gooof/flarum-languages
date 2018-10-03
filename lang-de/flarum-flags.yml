@@ -43,7 +43,7 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: Dismiss Flag
+      dismiss_flag_button: Meldung verwerfen
       flagged_by_text: "{username} ist gemeldet"
       flagged_by_with_reason_text: "{username} gemeldet als {reason}"
 

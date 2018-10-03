@@ -19,9 +19,9 @@ core:
       colored_header_label: Header einfärben
       colors_heading: Farben
       colors_text: "Zwei Farben wählen, um den Grundton des Forum zu ändern. Die erste Farbe ist für die Aufhellungen, die zweite ist für die Hintergrundelemente."
-      custom_footer_heading: Custom Footer
+      custom_footer_heading: Benutzerdefinierte Fußzeile (Footer)
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
+      custom_header_heading: Benutzerdefinierte Kopfzeile (Header)
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Individueller Stil
       custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS code anpassen.
@@ -46,7 +46,7 @@ core:
       home_page_heading: Startseite
       home_page_text: Choose the page which users will first see when they visit your forum.
       saved_message: Die Veränderungen wurden übernommen.
-      show_language_selector_label: Show language selector
+      show_language_selector_label: Sprachauswahl anzeigen
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher*innen zu begrüßen.
@@ -91,8 +91,8 @@ core:
       account_heading: SMTP Account
       addresses_heading: Addresses
       driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      encryption_label: Verschlüsselung
+      from_label: Absender
       heading: => core.ref.email
       host_label: Host
       password_label: => core.ref.password
@@ -139,8 +139,8 @@ core:
       delete_discussions_forever_label: Diskussion endgültig löschen
       delete_discussions_label: Diskussion löschen
       delete_posts_forever_label: Beitrag endgültig löschen
-      delete_posts_label: Delete posts
-      edit_posts_label: Edit posts
+      delete_posts_label: Beiträge löschen
+      edit_posts_label: Beiträge ändern
       global_heading: Global
       moderate_heading: Moderieren
       new_group_button: Neue Gruppe
@@ -153,7 +153,7 @@ core:
       view_discussions_label: Diskussionen lesen
       view_last_seen_at_label: View user last seen time
       view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      view_user_list_label: Benutzerliste anzeigen
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -199,7 +199,7 @@ core:
       exit_full_screen_tooltip: Vollbild beenden
       full_screen_tooltip: Vollbild
       minimize_tooltip: Minimieren
-      preview_tooltip: Preview
+      preview_tooltip: Vorschau
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -251,7 +251,7 @@ core:
       groups_heading: Groups
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Setze ein neues Passwort
       submit_button: => core.ref.save_changes
       title: Benutzer bearbeiten
       username_heading: => core.ref.username
@@ -270,7 +270,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      back_to_index_tooltip: Zurück zur Diskussionsliste
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
@@ -300,7 +300,7 @@ core:
       forgot_password_link: "Passwort vergessen?"
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
+      remember_me_label: Eingeloggt bleiben
       sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -451,7 +451,7 @@ core:
     error:
       403_message: You do not have permission to access this page.
       404_message: The page you requested could not be found.
-      404_return_link: "Return to {forum}"
+      404_return_link: "Zurück zu {forum}"
       500_message: An error occurred while trying to load this page.
       503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
 
@@ -469,8 +469,8 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Neues Passwort bestätigen
+      new_password_label: Neues Passwort
       submit_button: => core.ref.save_changes
       title: Passwort zurücksetzen
 
@@ -530,7 +530,7 @@ core:
     confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
+    custom_footer_title: Benutzerdefinierte Fußzeile (Footer) bearbeiten
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Individuellen Header bearbeiten
     delete: Löschen
