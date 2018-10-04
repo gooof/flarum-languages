@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Το όνομα χρήστη μπορεί να περιέχει μόνο γράμματα, αριθμούς και παύλες."

@@ -50,7 +50,7 @@ flarum-tags:
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Primary Tags
       secondary_heading: Secondary Tags
-      settings_button: Settings
+      settings_button: Configuración
 
   # Translations in this namespace are used by the forum user interface.
   forum:

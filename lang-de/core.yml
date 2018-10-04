@@ -9,31 +9,31 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "Wenn du ein Entwickler bist, kannst du dir die <a>Dokumentation durchlesen</a> und dich daran versuchen, eigene Erweiterungen zu erstellen."
+      install_text: "In der Zwischenzeit kannst du nach Erweiterungen auf der <a>Flarum Community Seite</a> suchen und diese mithilfe von Composer manuell installieren."
+      temporary_text: "In der nicht zu fernen Zukunft wird dir dieser Dialog ermöglichen, Erweiterungen mit Leichtigkeit hinzuzufügen. Wir arbeiten bereits an einem ganzen Ökosystem!"
       title: Erweiterung hinzufügen
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Header einfärben
       colors_heading: Farben
-      colors_text: "Zwei Farben wählen, um den Grundton des Forum zu ändern. Die erste Farbe ist für die Aufhellungen, die zweite ist für die Hintergrundelemente."
+      colors_text: "Zwei Farben wählen, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite ist für die Hintergrundelemente."
       custom_footer_heading: Benutzerdefinierte Fußzeile (Footer)
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Benutzerdefinierte Kopfzeile (Header)
-      custom_header_text: => core.ref.custom_header_text
+      custom_header_heading: Individuelle Kopfzeile
+      custom_header_text: Füge eigenes HTML hinzu, das über der Flarum-Kopfzeile stehen wird.
       custom_styles_heading: Individueller Stil
-      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS code anpassen.
-      dark_mode_label: Dunkles Thema
+      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS-Code anpassen.
+      dark_mode_label: Dunkles Theme
       edit_css_button: Individuelles CSS bearbeiten
       edit_footer_button: => core.ref.custom_footer_title
-      edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Gebe eine Farbe im hexadezimalen Code ein.
+      edit_header_button: Individuelle Kopfzeile bearbeiten
+      enter_hex_message: Gib eine Farbe im hexadezimalen Format ein.
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -41,12 +41,12 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Deutsch
       forum_description_heading: Beschreibung des Forums
-      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags der Suchmaschinen erscheinen.
+      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für die Suchmaschinen erscheinen.
       forum_title_heading: Titel des Forums
       home_page_heading: Startseite
-      home_page_text: Choose the page which users will first see when they visit your forum.
+      home_page_text: Welche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben.
       saved_message: Die Veränderungen wurden übernommen.
-      show_language_selector_label: Sprachauswahl anzeigen
+      show_language_selector_label: Sprach-Auswahlmenü zeigen
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher*innen zu begrüßen.
@@ -57,7 +57,7 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS code an, welches über Flarum's <a>standard Design</a> angewendet wird."
+      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird."
       submit_button: => core.ref.save_changes
       title: Bearbeite eigenes CSS
 
@@ -69,37 +69,37 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
+      color_label: Farbe
       delete_button: Gruppe löschen
-      delete_confirmation: "Bist du sicher, du möchtest die Gruppe löschen? Die Gruppenmitglieder werden nicht gelöscht."
+      delete_confirmation: "Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht."
       icon_label: Symbol
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
+      icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>ohne</em> den Prefix <code>(fa-)</code>."
       name_label: Name
-      plural_placeholder: Mehrzahl (e.g. Mods)
-      singular_placeholder: Einzahl (e.g. Mod)
+      plural_placeholder: Mehrzahl (z.B. Mods)
+      singular_placeholder: Einzahl (z.B. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: => core.ref.custom_header_text
+      customize_text: Füge eigenes HTML hinzu, das über der Flarum-Kopfzeile stehen wird.
       submit_button: => core.ref.save_changes
-      title: => core.ref.custom_header_title
+      title: Individuelle Kopfzeile bearbeiten
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
-      driver_label: Driver
+      account_heading: SMTP-Account
+      addresses_heading: Adressen
+      driver_label: Treiber
       encryption_label: Verschlüsselung
       from_label: Absender
       heading: => core.ref.email
       host_label: Host
       password_label: => core.ref.password
       port_label: Port
-      server_heading: SMTP Server
+      server_heading: SMTP-Server
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: Konfiguriere die SMTP-Einstellungen und Adressen, die verwendet werden um E-Mails zu verschicken.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
@@ -114,7 +114,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Bitte warten ...
+      title: Bitte warten…
 
     # These translations are used in the navigation bar.
     nav:
@@ -125,7 +125,7 @@ core:
       dashboard_button: Dashboard
       dashboard_text: Das Forum auf einen Blick.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
+      email_text: "Konfiguriere die E-Mail-Einstellungen."
       extensions_button: Erweiterungen
       extensions_text: Mach das Forum zu deinem Eigenen und erweitere es nach deinen Bedürfnissen.
       permissions_button: Zugriffsrechte
@@ -142,9 +142,9 @@ core:
       delete_posts_label: Beiträge löschen
       edit_posts_label: Beiträge ändern
       global_heading: Global
-      moderate_heading: Moderieren
+      moderate_heading: Moderation
       new_group_button: Neue Gruppe
-      participate_heading: Teilnehmende
+      participate_heading: Teilnehmer
       read_heading: Lesen
       rename_discussions_label: Diskussion umbenennen
       reply_to_discussions_label: Antworte auf die Diskussion
@@ -152,8 +152,8 @@ core:
       start_discussions_label: Diskussion beginnen
       view_discussions_label: Diskussionen lesen
       view_last_seen_at_label: View user last seen time
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: Benutzerliste anzeigen
+      view_post_ips_label: IP-Adressen einsehen
+      view_user_list_label: Benutzerliste einsehen
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -172,8 +172,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      remove_button: Entfernen
+      upload_button: Lade ein Bild hoch…
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -190,7 +190,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Passwort zurücksetzen
-      text: Den Knopf drücken, um einen Link zum zurücksetzen des Passwortes zu erhalten.
+      text: Klicke auf den Button, um einen Link zum Zurücksetzen des Passwortes zu erhalten.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -203,25 +203,25 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Beitrag schreiben ...
-      discard_confirmation: "Der Beitrag wurde nicht nicht abgeschickt, soll sie verworfen werden?"
+      body_placeholder: Beitrag schreiben…
+      discard_confirmation: "Der Beitrag wurde nicht abgeschickt. Soll er verworfen werden?"
       submit_button: Beitrag abschicken
       title: => core.ref.start_a_discussion
       title_placeholder: Titel der Diskussion
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Die Änderungen wurden nicht übernommen, sollen sie verworfen werden?"
+      discard_confirmation: "Die Änderungen wurden nicht übernommen. Sollen sie verworfen werden?"
       post_link: "Beitrag #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Die Antwort wurde nicht abgeschickt, sollen sie verworfen werden?"
+      discard_confirmation: "Die Antwort wurde nicht abgeschickt. Soll sie verworfen werden?"
       posted_message: Die Antwort wurde abgeschickt.
       submit_button: Antwort abschicken
-      view_button: Betrachten
+      view_button: Anzeigen
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -245,15 +245,15 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: Nutzer*in aktivieren
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: Gruppen
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Setze ein neues Passwort
+      set_password_label: Neues Passwort setzen
       submit_button: => core.ref.save_changes
-      title: Benutzer bearbeiten
+      title: Nutzer*in bearbeiten
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -261,7 +261,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Es wurde ein Link zum Zurücksetzen des Passwortes gesendet. Bitte ggf. auch den SPAM-Ordner checken.
+      email_sent_message: Ein Link zum Zurücksetzen des Passwortes wurde verschickt. Bitte ggf. auch den Spam-Ordner checken.
       not_found_message: There is no user registered with that email address.
       submit_button: Passwort wiederherstellen
       text: Um einen Link zum Zurücksetzen des Passwortes zu erhalten, bitte E-Mail-Adresse eintragen.
@@ -281,7 +281,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Diskussion starten aus
+      cannot_start_discussion_button: \"Diskussion starten\" deaktiviert
       mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
@@ -301,14 +301,14 @@ core:
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
       remember_me_label: Eingeloggt bleiben
-      sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
+      sign_up_text: "Noch kein Account? Dann <a>registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nutzername oder E-Mail
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} hat den Titel geändert"
+      discussion_renamed_text: "{username} hat den Titel geändert zu {new}."
       empty_text: Keine neuen Benachrichtigungen
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -316,7 +316,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Geändert
+      edited_text: Bearbeitet
       edited_tooltip: "{ago} geändert von {username}"
       number_tooltip: "Beitrag #{number}"
 
@@ -345,13 +345,13 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: Diskussion umbenennen
 
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Alle Diskussionen durchsuchen nach "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: => core.ref.users
+      users_heading: Benutzer*innen
 
     # These translations are used in the Settings page.
     settings:
@@ -379,15 +379,15 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: => core.ref.remove
+      avatar_remove_button: Entfernen
       avatar_upload_button: Hochladen
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_tooltip: Lade einen neuen Avatar hoch
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Beitritt {ago}"
       online_text: Online
       posts_empty_text: It looks like there are no posts here.
-      posts_link: => core.ref.posts
+      posts_link: Beiträge
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
@@ -438,14 +438,14 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Lädt...
+      javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
+      load_error_message: Beim Laden dieser Seite ist etwas schiefgelaufen.
+      loading_text: Seite lädt…
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
+      previous_page_button: Vorherige Seite
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
@@ -495,7 +495,7 @@ core:
                Wenn du es nicht selbst warst, ignoriere diese E-Mail.
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: E-Mail-Addresse bestätigen
+      subject: E-Mail-Adresse bestätigen
       body: |
                Hallo {username}!
 
@@ -528,7 +528,7 @@ core:
     change_password: Passwort ändern
     color: Farben                                 # Referenced by flarum-tags.yml
     confirm_password: Passwort bestätigen
-    confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
+    confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Benutzerdefinierte Fußzeile (Footer) bearbeiten
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
@@ -541,7 +541,7 @@ core:
     load_more: Weitere laden
     log_in: Anmelden
     log_out: Abmelden
-    mark_all_as_read: Alle als Gelesen makieren
+    mark_all_as_read: Alle als gelesen makieren
     next_page: Nächste Seite
     notifications: Benachrichtigungen
     okay: Okay                                     # Referenced by flarum-tags.yml
@@ -551,16 +551,16 @@ core:
     remove: Entfernen
     rename: Umbenennen
     reply: Antworten                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Passwort zurücksetzen
+    reset_your_password: Setze dein Passwort zurück
     restore: Wiederherstellen
     save_changes: Änderungen speichern                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Einstellungen
     sign_up: Registrieren
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} weiterem|{count} weiteren"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Diskussion starten
     username: Nutzername
     users: Benutzer*innen                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Eine Antwort schreiben ...
+    write_a_reply: Eine Antwort schreiben…
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##

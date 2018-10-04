@@ -22,13 +22,13 @@ core:
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Custom Header
-      custom_header_text: => core.ref.custom_header_text
+      custom_header_text: Add HTML to be displayed at the very top of the page, above Flarum's own header.
       custom_styles_heading: Custom Styles
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Dark Mode
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
-      edit_header_button: => core.ref.custom_header_title
+      edit_header_button: Edit Custom Header
       enter_hex_message: Please enter a hexadecimal color code.
       favicon_heading: Favicon
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
@@ -39,16 +39,16 @@ core:
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: নির্ধারিত ভাষা
+      forum_description_heading: ফোরাম বর্ণনা
+      forum_description_text: আপনার সম্প্রদায় বর্ণনা করে একটি বা দুটি সংক্ষিপ্ত বাক্য  লিখুন। এটি মেটা ট্যাগের মধ্যে প্রদর্শিত হবে এবং অনুসন্ধান ইঞ্জিনগুলিতে প্রদর্শিত হবে
+      forum_title_heading: ফোরাম এর শিরোনাম
+      home_page_heading: প্রচ্ছদ
+      home_page_text: Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root.
+      saved_message: পরিবর্তনগুলি সংরক্ষণ করা হয়েছে
+      show_language_selector_label: ভাষা নির্বাচক দেখান
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
+      welcome_banner_heading: স্বাগতম ব্যানার
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
     # These translations are used in the Dashboard page.
@@ -69,11 +69,11 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
+      color_label: Color
       delete_button: Delete Group
       delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
       icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
+      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
       name_label: Name
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
@@ -82,9 +82,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: => core.ref.custom_header_text
+      customize_text: Add HTML to be displayed at the very top of the page, above Flarum's own header.
       submit_button: => core.ref.save_changes
-      title: => core.ref.custom_header_title
+      title: Edit Custom Header
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -172,7 +172,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: => core.ref.remove
+      remove_button: অপসারণ
       upload_button: Choose an Image...
 
   # Translations in this namespace are used by the forum user interface.
@@ -183,77 +183,77 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: আপনার প্রবেশ করা পাসওয়ার্ডটি ভুল
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: ইমেইল পাঠান
+      text: নীচের বোতামটি ক্লিক করুন এবং  আপনার ইমেল চেক করুন পাসওয়ার্ড পরিবর্তন করতে একটি লিঙ্কের পাঠানো হয়েছে
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
+      close_tooltip: বন্ধ করুন
+      exit_full_screen_tooltip: পূর্ণ স্ক্রীন থেকে প্রস্থান
+      full_screen_tooltip: পূর্ণ পর্দা
+      minimize_tooltip: ক্ষুদ্রকরণ
       preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: পোস্ট লিখুন ...
+      discard_confirmation: "প্রশ্ন টি পোস্ট করা হয়নি। এটি বাতিল করতে চান?"
+      submit_button: পোস্ট
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: প্রশ্নের শিরোনাম
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "পরিবর্তন সংরক্ষণ করেননি। আপনি কি এটি বাতিল করতে চান?"
+      post_link: "পোস্ট #{number} এবং {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "আপনার উত্তর পোস্ট করেন নি। আপনি কি এটি বাতিল করতে চান?"
+      posted_message: আপনার উত্তর পোস্ট করা হয়েছে
+      submit_button: জবাব দিন
+      view_button: দেখুন
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: উত্তর দিতে পারবেন না
+      cannot_reply_text: এই প্রশ্নের উত্তর দেওয়ার অনুমতি নেই
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "প্রশ্নটি মুছে ফেলতে চান??"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: উত্তর দিতে লগ ইন করুন
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: দেখে মনে হচ্ছে, এখানে কোন আলোচনা নেই
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: পঠিত হিসেবে চিহ্নিত করুন
+      replied_text: "{username} জবাব দিয়েছে {ago}"
+      started_text: "{username} শুরু করেছে  {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: ব্যবহারকারী সক্রিয় করুন
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: গ্রুপ সমূহ
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: Set new password
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: ব্যবহারকারী সম্পাদনা করুন
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -261,64 +261,64 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: পাসওয়ার্ড পুনরায় সেট করার জন্য একটি লিঙ্ক ইমেল ঠিকানায় পাঠানো হয়েছে। যদি ২/১ মিনিটের মধ্যে ইমেইল না পান তা হলে স্প্যাম ফোল্ডারটি চেক করুন।
+      not_found_message: এই ইমেল ঠিকানার দিয়ে এখনো কোনো নিবন্ধন করা হয়নি
+      submit_button: পাসওয়ার্ড উদ্ধার করুন
+      text: ইমেইল ঠিকানা লিখুন এবং পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে
+      title: পাসওয়ার্ড ভুলে গেছেন
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      admin_button: নিয়ন্ত্রণ কেন্দ্র
+      back_to_index_tooltip: প্রশ্নে ফিরে যান
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: প্রোফাইল
+      search_placeholder: সমস্ত ফোরাম জুড়ে খুজুন
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: প্রশ্ন করতে পারবেন না
+      mark_all_as_read_confirmation: "পঠিত হিসেবে চিহ্নিত করতে চান?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: রিফ্রেশ
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: সর্বশেষ
+      newest_button: নতুন
+      oldest_button: পুরাতন
+      relevance_button: প্রাসঙ্গিকতা
+      top_button: উপরে
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "পাসওয়ার্ড ভুলে গেছেন?"
+      invalid_login_message: প্রবেশ বৈধ নয়
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: মনে রাখুন
+      sign_up_text: "অ্যাকাউন্ট নেই? <a>নিবন্ধন করুন</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: নাম বা ইমেল
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} শিরোনাম পরিবর্তন করেছে"
+      empty_text: কোন বিজ্ঞপ্তি নেই
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
+      edited_text: সম্পাদিত
       edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "পোস্ট #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -329,14 +329,14 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: বর্তমানে
+      original_post_link: মূল পোস্ট
+      unread_text: "{count} অপঠিত"
+      viewing_text: "{count} মধ্যে {index} টি পোস্ট|{count} মধ্যে {index} টি পোস্ট"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
+      discussion_renamed_old_tooltip: 'পুরানো শিরোনাম ছিল: "{old}"'
       discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
@@ -345,78 +345,78 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: প্রশ্নের নাম পরিবর্তন করুন
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'সব প্রশ্নের  জন্য অনুসন্ধান "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: => core.ref.users
+      users_heading: ব্যবহারকারীরা
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: অ্যাকাউন্ট
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: ওয়েব
+      notify_discussion_renamed_label: প্রশ্নের শিরোনাম পরিবর্তন করা
+      privacy_disclose_online_label: যখন আমি অনলাইনে আছি, অন্যদের দেখতে দিন
+      privacy_heading: গোপনীয়তা
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "ইতিমধ্যে একটি অ্যাকাউন্ট আছে? <a>প্রবেশ করুন</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "স্বাগত, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_remove_button: অপসারণ
+      avatar_upload_button: আপলোড
+      avatar_upload_tooltip: নতুন ছবি আপলোড করুন
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      joined_date_text: "যোগ দিয়েছে {ago}"
+      online_text: অনলাইন
       posts_empty_text: It looks like there are no posts here.
-      posts_link: => core.ref.posts
+      posts_link: পোস্টগুলি
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: নিয়ন্ত্রণ
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "ব্যবহারকারী কে মুছে ফেলতে চান? ব্যবহারকারী সকল পোস্ট মুছে ফেলা হবে"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: নিশ্চিতকরণ ইমেল পুনরায় পাঠান
+      sent_message: প্রেরিত
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: গোপন
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "ওহো! কিছু ভুল হয়েছে। পৃষ্ঠাটি পুনরায় লোড করে আবার চেষ্টা করুন"
+      not_found_message: অনুরোধকৃত সম্পদ পাওয়া যায়নি
+      permission_denied_message: এই কাজ করার অনুমতি নেই
+      rate_limit_exceeded_message: খুব দ্রুত একটু চলুন। দয়া করে কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -426,8 +426,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, এবং {third}"
+      two_text: "{first} এবং {second}"
 
     # These translations are used to modify usernames.
     username:
@@ -438,14 +438,14 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: এই সাইটটি জাভাস্ক্রিপ্ট সক্ষম সহ একটি আধুনিক ব্রাউজারে ভাল দেখা যায়
+      load_error_message: এই সাইটের সম্পূর্ণ সংস্করণ লোড করার চেষ্টা করার সময় কিছু ভুল হয়েছে
+      loading_text: লোড হচ্ছে ...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
+      previous_page_button: আগের পৃষ্ঠা
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
@@ -459,7 +459,7 @@ core:
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
+      previous_page_button: আগের পৃষ্ঠা
 
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
@@ -476,92 +476,93 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "নাম কেবল অক্ষর, সংখ্যা এবং ড্যাশ থাকবে"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: অ্যাকাউন্ট যাচাই করুন
       body: |
-               Hey {username}!
+               ওহে {username}!
 
-               Someone (hopefully you!) has signed up to {forum} with this email address.
 
-               If this was you, simply click the following link and your account will be activated:
+
+               {forum} এ (আশা করি আপনি!) সাইন আপ করেছেন এই ইমেল ঠিকানা দিয়ে
+
+               যদি আপনি নিবন্ধন করে থাকেন , কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
                {url}
-
-               If you did not sign up, please ignore this email.
+               আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: নতুন ইমেইল ঠিকানা নিশ্চিত করুন
       body: |
-               Hey {username}!
+               ওহে {username}!
 
-               Someone (hopefully you!) has changed their email address on {forum} to this one.
+               {forum} এ  (আশা করছি আপনি!) আপনার  ইমেল ঠিকানাটি পরিবর্তন করতেচাচ্ছেন
 
-               If this was you, simply click the following link and your email will be confirmed:
+               যদি আপনি হন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার ইমেইল নিশ্চিত করা হবে:
                {url}
 
-               If this was not you, please ignore this email.
+               আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-               Hey {username}!
+               ওহে {username}!
 
-               Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+               {forum} এ (আশা করছি আপনি!) আপনার ভুলে যাওয়া পাসওয়ার্ড অনুরোধ  করেছেন
 
-               If this was you, click the following link to reset your password:
+               যদি আপনি হয়ে থাকেন, তাহলে আপনার পাসওয়ার্ডটি পুনরায় সেট করার জন্য নিম্নোক্ত লিঙ্কটি ক্লিক করুন
+
                {url}
-
-               If you do not wish to change your password, just ignore this email and nothing will happen.
+               আপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান, তবে এই ইমেলটি উপেক্ষা করুন এবং এতে কিছুই ঘটবে না
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
+    all_discussions: সব প্রশ্ন
+    change_email: ইমেল পরিবর্তন করুন
+    change_password: পাসওয়ার্ড পরিবর্তন করুন
     color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirm_password: পাসওয়ার্ড নিশ্চিত করুন
+    confirmation_email_sent: " এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পারানো হয়েছে। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন"
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
+    delete: মুছুন
+    delete_forever: স্থায়ীভাবে মুছুন
+    discussions: প্রশ্ন                     # Referenced by flarum-statistics.yml
+    edit: সম্পাদন
+    email: ইমেইল
+    load_more: আরো লোড করুন
+    log_in: প্রবেশ
+    log_out: প্রস্থান
+    mark_all_as_read: পঠিত হিসাবে চিহ্নিত করুন
+    next_page: পরবর্তী পৃষ্ঠা
+    notifications: বিজ্ঞপ্তিগুলি
+    okay: ঠিক আছে                                     # Referenced by flarum-tags.yml
+    password: পাসওয়ার্ড
     posts: Posts                                 # Referenced by flarum-statistics.yml
     previous_page: Previous Page
     remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
+    rename: পুনঃনামকরণ
+    reply: উত্তর দিন                                 # Referenced by flarum-mentions.yml
+    reset_your_password: পাসওয়ার্ড পুনরায় সেট
+    restore: পুনঃস্থাপন
+    save_changes: সংরক্ষণ করুন                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: সেটিংস
+    sign_up: নিবন্ধন
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
+    start_a_discussion: প্রশ্ন করুন
+    username: নাম
     users: Users                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    write_a_reply: প্রতিউত্তর লিখুন...
+    you: আপনি                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -569,11 +570,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
+    admin: প্রশাসক
+    admins: প্রশাসকগণ
+    guest: অতিথি
+    guests: অতিথিগণ
+    member: সদস্য
+    members: সদস্যগণ
     mod: Mod
     mods: Mods

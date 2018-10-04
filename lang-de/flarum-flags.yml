@@ -14,18 +14,18 @@ flarum-flags:
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: Community Richtlinien URL
-      title: Flags Einstellungen
+      guidelines_url_label: Community-Richtlinien URL
+      title: Flags-Einstellungen
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Danke für das melden dieses Beitrages. Unsere Moderator*innen werden danach schauen.
+      confirmation_message: Danke für das Melden des Beitrages. Unsere Moderator*innen werden sich darum kümmern.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: Unangebracht
-      reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>Community Richtlinien</a>."
+      reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>Community-Richtlinien</a>."
       reason_off_topic_label: "Nicht zur Diskussion passend"
       reason_off_topic_text: Dieser Beitrag hat keinen Bezug zu dieser Diskussion und sollte in eine andere Diskussion verschoben werden.
       reason_other_label: Sonstiges
@@ -43,9 +43,9 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: Meldung verwerfen
-      flagged_by_text: "{username} ist gemeldet"
-      flagged_by_with_reason_text: "{username} gemeldet als {reason}"
+      dismiss_flag_button: Meldung ablehnen
+      flagged_by_text: "Von {username} gemeldet"
+      flagged_by_with_reason_text: "Von {username} gemeldet als {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:

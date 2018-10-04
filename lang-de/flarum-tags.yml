@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: Farben
       delete_tag_button: Löschen
-      delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
+      delete_tag_confirmation: "Soll die Kategorie wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
       hide_label: Von allen Diskussionen ausblenden
       name_label: => flarum-tags.ref.name
@@ -31,13 +31,13 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Erlaube Kategorien zu ändern
+      allow_edit_tags_label: Erlaube, Kategorien zu ändern
       restrict_by_tag_heading: Durch Kategorien beschränken
       tag_discussions_label: Diskussion markieren
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " zu "
+      range_separator_text: " bis "
       required_primary_heading: Anzahl der benötigten Hauptkategorien
       required_primary_text: Gib die minimale und die maximale Anzahl von Hauptkategorien an, die einer Diskussion hinzugefügt werden können.
       required_secondary_heading: Anzahl der benötigten Unterkategorien
@@ -57,7 +57,7 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Wähle einen Hauptkategorie|Wähle {count} Hauptkategorien"
+      choose_primary_placeholder: "Wähle eine Hauptkategorie|Wähle {count} Hauptkategorien"
       choose_secondary_placeholder: "Wähle eine Kategorie mehr|Wähle {count} Kategorien mehr"
       edit_title: "Kategorien für {title} bearbeiten"
       submit_button: => core.ref.okay
@@ -73,7 +73,7 @@ flarum-tags:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: Mehr ...
+      more_link: Mehr…
       tags_link: => flarum-tags.ref.tags
       untagged_link: nicht markiert
 

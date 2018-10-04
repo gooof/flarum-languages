@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: অনুসরণ বাতিল
+      unignore_button: উপেক্ষা
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} পোস্ট করেছেন"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: প্রশ্নতে জবাব দিলে স্বয়ংক্রিয়ভাবে অনুসরণ করুন
+      notify_new_post_label: অনুসরণ করছি এই রকম কোনো প্রশ্নে কোনো পোস্ট হলে
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: সমস্ত জবাবের বিজ্ঞপ্তি দিন
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: প্রশ্ন  তালিকা থেকে লুকান। কখনোই বিজ্ঞাপিত হবে না
+      not_following_button: অনুসরণ করছেন না
+      not_following_text: " আমাকে @উল্লেখ করা হলে বিজ্ঞপ্তি দিন"
+      notify_alert_tooltip: নতুন পোস্ট হলে একটি বিজ্ঞপ্তি দিন
+      notify_email_tooltip: নতুন পোস্ট হলে ইমেইল পাঠান
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: অনুসরণ
+    following: অনুগামী
+    ignoring: উপেক্ষা

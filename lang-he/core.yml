@@ -9,47 +9,47 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      developer_text: "אם אתה מפתח, אתה יכול <a>לקרוא את המסמכים</a> ולבנות הרחבות משלך."
+      install_text: "בינתיים, ניתן לחפש הרחבות <a>באתר קהילת Flarum</a> ולהתקין אותן ידנית באמצעות Composer."
+      temporary_text: "יום אחד בעתיד-הלא-רחוק-כל-כך, תוכל להוסיף כאן הרחבות לפורום שלך בקלות. אנו עובדים על אפשרות זו ממש ברגע זה!"
+      title: הוספת הרחבה
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colored_header_label: חלק עליון צבעוני
+      colors_heading: צבעים
+      colors_text: "בחר שני צבעים שאיתם יצבע הפורום שלך. הראשון ישמש כצבע הדגשה, בעוד שהשני ישמש לצבוע אלמנטים ברקע."
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
-      custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
+      custom_header_heading: חלק עליון מותאם אישית
+      custom_header_text: הוסף קוד HTML שיוצג בראש כל דף, מעל החלק העליון של Flarum.
+      custom_styles_heading: סגנונות מותאמים אישית
+      custom_styles_text: התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את עיצוב ברירת המחדל.
+      dark_mode_label: מצב חשוך
+      edit_css_button: עריכת CSS
       edit_footer_button: => core.ref.custom_footer_title
-      edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Please enter a hexadecimal color code.
+      edit_header_button: עריכת חלק עליון
+      enter_hex_message: הכנס בבקשה צבע הקסדצימלי.
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      favicon_text: העלה תמונה שתשמש כלוגו קיצור הדרך של הפורום.
+      logo_heading: לוגו
+      logo_text: העלאת תמונה שתחליף את כותרת הפורום
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: שפת ברירת מחדל
+      forum_description_heading: תיאור הפורום
+      forum_description_text: הכנס משפט או שניים שמתארים את הקהילה. זה יופיע בתג הMeta ובמנועי חיפוש.
+      forum_title_heading: כותרת פורום
+      home_page_heading: דף בית
+      home_page_text: בחר את העמוד אותו משתמשים יראו ראשונים כשהם נכנסים לפורום שלך. אם מוכנס ערך מותאם אישית, השתמש בנתיב יחסי לשורש הפרוום.
+      saved_message: השינויים נשמרו.
+      show_language_selector_label: הצגת כפתור החלפת השפה
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: קבלת הפנים
+      welcome_banner_text: ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -57,9 +57,9 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את <a>עיצוב ברירת המחדל</a>."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: עריכת CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -69,26 +69,26 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-      name_label: Name
+      color_label: צבע
+      delete_button: הסרת קבוצה
+      delete_confirmation: "האם ברצונך להסיר הקבוצה זו? המשתמשים שבקבוצה לא יוסרו."
+      icon_label: אייקון
+      icon_text: "רשמו כל שם של אייקון <a>FontAwesome</a>, ללא הקידומת <code>fa-</code>."
+      name_label: שם
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: יצירת קבוצה
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: => core.ref.custom_header_text
+      customize_text: הוסף קוד HTML שיוצג בראש כל דף, מעל החלק העליון של Flarum.
       submit_button: => core.ref.save_changes
-      title: => core.ref.custom_header_title
+      title: עריכת חלק עליון
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
+      account_heading: חשבון SMTP
       addresses_heading: Addresses
       driver_label: Driver
       encryption_label: Encryption
@@ -97,16 +97,16 @@ core:
       host_label: Host
       password_label: => core.ref.password
       port_label: Port
-      server_heading: SMTP Server
+      server_heading: שרת SMTP
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: ערוך את הגדרות וכתובות הSMTP בהם הפורום ישתמש לשליחת מיילים.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: הוספת הרחבה
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: הסר התקנה
 
     # These translations are used in the session dropdown menu.
     header:
@@ -114,57 +114,57 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: אנא המתן...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: מראה
+      appearance_text: "ערוך את הצבעים, את הלוגואים ועוד משתנים בפורום."
+      basics_button: מידע בסיסי
+      basics_text: "ערוך את הכותרת, את השפה ועוד מידע בסיסי."
+      dashboard_button: לוח בקרה
+      dashboard_text: הפורום שלך במבט מהיר.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "ערוך את הגדרות המייל בפורום."
+      extensions_button: הרחבות
+      extensions_text: הוסף תפקוד נוסף לפורום שלך והפוך אותו לייחודי.
+      permissions_button: הרשאות
+      permissions_text: הגדר מי יכול לעשות ולראות מה.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
+      allow_post_editing_label: עריכת הודעה
+      allow_renaming_label: עריכת שם
+      create_heading: כתיבה
+      delete_discussions_forever_label: הסרת דיונים לתמיד
+      delete_discussions_label: הסרת דיונים
+      delete_posts_forever_label: הסרת הודעות לתמיד
       delete_posts_label: Delete posts
       edit_posts_label: Edit posts
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      global_heading: גלובלי
+      moderate_heading: ניהול
+      new_group_button: קבוצה חדשה
+      participate_heading: השתתפות
+      read_heading: קריאה
+      rename_discussions_label: שינוי כותרת דיון
+      reply_to_discussions_label: פרסום תגובה בדיון
+      sign_up_label: הרשמה
+      start_discussions_label: יצירת דיונים
+      view_discussions_label: צפייה בדיונים
       view_last_seen_at_label: View user last seen time
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      view_post_ips_label: צפייה בכתובות IP
+      view_user_list_label: צפייה ברשימת משתמשים
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: ללא הגבלת זמן
+      allow_some_minutes_button: "ל-{count} דקה|ל-{count} דקות"
+      allow_ten_minutes_button: ל-10 דקות
+      allow_until_reply_button: עד לתגובה הבאה
+      everyone_button: כולם
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: סגור
+      signup_open_button: פתוח
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -172,8 +172,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      remove_button: הסרה
+      upload_button: בחירת תמונה...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -183,77 +183,77 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: הסיסמא שהכנסת אינה נכונה.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: שליחת דואר אלקטרוני לשחזור סיסמא
+      text: לחץ על הכפתור הבא והמתן עבור הקישור לשינוי הסיסמא במייל שלך.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
+      close_tooltip: סגירה
+      exit_full_screen_tooltip: יציאה ממסך מלא
+      full_screen_tooltip: מסך מלא
+      minimize_tooltip: מזעור
       preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: כתיבת תוכן...
+      discard_confirmation: "דיונך לא פורסם. האם ברצונך לוותר עליו?"
+      submit_button: פרסום דיון
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: כותרת דיון
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "לא שמרת את השינויים. האם ברצונך לוותר עליהם?"
+      post_link: "הודעה #{number} ב-{discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "לא פרסמת את תגובתך. האם ברצונך לוותר עליה?"
+      posted_message: תגובתך פורסמה.
+      submit_button: פרסם תגובה
+      view_button: צפייה
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: לא ניתן להגיב
+      cannot_reply_text: אין באפשרותך להגיב בדיון זה.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "האם ברצונך להסיר דיון זה?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: התחברו בכדי להגיב
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: ככל הנראה אין פה דיונים.
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: סמן כנקרא
+      replied_text: "{username} הגיב {ago}"
+      started_text: "{username} יצר {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: הפעלת משתמש משתמש
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: קבוצות
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: הגדרת סיסמא חדשה
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: ערוך משתמש
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -261,64 +261,64 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: שלחנו לך הודעה לדואר האלקטרוני שלך עם קישור לאיפוס הסיסמא. אם המייל לא הגיע תוך דקה-שתיים הקרובות, יש לבדוק את תיקיית הספאם שלך.
+      not_found_message: אין משתמש תחת כתובת דואר האלקטרוני הזו.
+      submit_button: שחזור סיסמא.
+      text: רשמו את כתובת הדואר האלקטרוני שלם אשר נשלח אליה את קישור איפוס הסיסמא.
+      title: שכחתי סיסמא
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      admin_button: ניהול
+      back_to_index_tooltip: חזרה לרשימת הדיונים
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: פרופיל
+      search_placeholder: חיפוש
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: אין באפשרותך ליצור דיון
+      mark_all_as_read_confirmation: "בטוח שברצונך לסמן את כל הדיונים כנקראו?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: ריענון
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: אחרונים
+      newest_button: חדשים ביותר
+      oldest_button: ישנים ביותר
+      relevance_button: רלוונטיות
+      top_button: מובילים
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "שכחת סיסמא?"
+      invalid_login_message: פרטי ההתחברות שלך שגויים.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: זכור אותי
+      sign_up_text: "אין לך חשבון? <a>הרשמו</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: שם משתמש או כתובת מייל
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} שינה את הכותרת"
+      empty_text: אין התראות
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: נערך
+      edited_tooltip: "{username} ערך לפני {ago}"
+      number_tooltip: "הודעה מספר #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -329,94 +329,94 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: עכשיו
+      original_post_link: הודעה מקורית
+      unread_text: "{count} לא נקראו"
+      viewing_text: "הודעה {index} מתוך {count}|הודעה {index} מתוך {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'הכותרת הקודמת הייתה "{old}"'
+      discussion_renamed_text: "{username} שינה את הכותרת ל{new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "אחרי {period}"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: שינוי כותרת
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'חיפוש של "{query}" בכל הדיונים'
       discussions_heading: => core.ref.discussions
-      users_heading: => core.ref.users
+      users_heading: משתמשים
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: חשבון
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: דפדפן
+      notify_discussion_renamed_label: מישהו שינה כותרת של דיון שיצרתי
+      privacy_disclose_online_label: אפשר למשתמשים לראות מתי אני מחובר/ת
+      privacy_heading: פרטיות
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "כבר יש לך חשבון? <a>התחבר</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "ברוכים הבאים, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_remove_button: הסרה
+      avatar_upload_button: העלאה
+      avatar_upload_tooltip: העלאת תמונה חדשה
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "ב{discussion}"
+      joined_date_text: "הצטרפו לפני {ago}"
+      online_text: מחובר
       posts_empty_text: It looks like there are no posts here.
-      posts_link: => core.ref.posts
+      posts_link: הודעות
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: שליטה
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "האם ברצונך להסיר את המשתמש? כל הההודעות של המשתמש יוסרו."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: שליחה שוב של הודעת האישור לדואר האלקטרוני
+      sent_message: נשלח
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: מוסתר
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "אופס! משהו השתבש. נא לרענן את הדף ונסו שוב."
+      not_found_message: המקור המבוקש לא נמצא.
+      permission_denied_message: אין לך גישה לעשות את זה.
+      rate_limit_exceeded_message: פעולותך מהירה מדי. נסו שוב בעוד מספר שניות.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -426,26 +426,26 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second} ו{third}"
+      two_text: "{first} ו{second}"
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[הוסר]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: האתר נראה הכי טוב באמצעות דפדפן מודרני שמאפשר javascript.
+      load_error_message: משהו השתבש בניסיון לטעון את הגירסא המלאה של האתר.
+      loading_text: טוען...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
+      previous_page_button: העמוד הקודם
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
@@ -459,7 +459,7 @@ core:
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
+      previous_page_button: העמוד הקודם
 
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
@@ -476,92 +476,86 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "שם המשתמש יכול להכיל רק אותיות, מספרים ומקפים."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: הפעל את החשבון החדש שלך
       body: |
-               Hey {username}!
-
-               Someone (hopefully you!) has signed up to {forum} with this email address.
-
-               If this was you, simply click the following link and your account will be activated:
+               היי {username}!
+               אנו שמחים שבחרת להירשם לפורום {forum}.
+               אם ההרשמה בוצעה על ידיך, הנה הקישור עליו ניתן ללחוץ בכדי לאשר את חשבונך החדש בקהילה:
                {url}
 
-               If you did not sign up, please ignore this email.
+               אם ההרשמה לא בוצעה על ידיך, התעלמו הודעה זו.
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: אישור של כתובת הדואר האלקטרוני החדשה שלך
       body: |
-               Hey {username}!
-
-               Someone (hopefully you!) has changed their email address on {forum} to this one.
-
-               If this was you, simply click the following link and your email will be confirmed:
+               היי {username}!
+               שינית את כתובת הדואר האלקטרוני שלך בפורום {forum} לכתובת הדואר האלקטרוני הזו.
+               כל מה שנותר לעשות הוא ללחוץ על הקישור הבא בכדי לאמת את השינוי:
                {url}
 
-               If this was not you, please ignore this email.
+               אם השינוי לא בוצע על ידיך, ניתן להתעלמו הודעה זו.
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-               Hey {username}!
-
-               Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
-
-               If this was you, click the following link to reset your password:
+               היי {username}!
+               ביקשת לשחזר את סיסמתך בפורום {forum}.
+               אם ברצונך לאפס את הסיסמא, ניתן ללחוץ על הקישור הבא כדי לעשות זאת:
                {url}
 
-               If you do not wish to change your password, just ignore this email and nothing will happen.
+               אם ברצונך להישאר עם הסיסמא הנוכחית, התעלמו מהודעה זו וכלום לא ישתנה.
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
+    all_discussions: כל הנושאים
+    change_email: שינוי כתובת דואר אלקטרוני
+    change_password: שינוי סיסמא
     color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirm_password: אישור סיסמא
+    confirmation_email_sent: "שלחנו מייל אימות ל{email}. אם הוא לא מגיע בקרוב, בדוק בתיקיית הספאם שלך."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
+    delete: הסרה
+    delete_forever: הסרה לתמיד
+    discussions: נושאים                     # Referenced by flarum-statistics.yml
+    edit: ערוך
+    email: דואר אלקטרוני
+    load_more: טען עוד
+    log_in: התחברות
+    log_out: התנתקות
+    mark_all_as_read: סימון הכל כנקרא
+    next_page: דף הבא
+    notifications: התראות
+    okay: אישור                                     # Referenced by flarum-tags.yml
+    password: סיסמא
     posts: Posts                                 # Referenced by flarum-statistics.yml
     previous_page: Previous Page
     remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
+    rename: שינוי שם
+    reply: תגובה                                 # Referenced by flarum-mentions.yml
+    reset_your_password: איפוס את סיסמתך
+    restore: שחזר
+    save_changes: שמירת שינויים                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: הגדרות
+    sign_up: הרשמה
+    some_others: "{count} נוסף|{count} נוספים"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: יצירת דיון
+    username: שם משתמש
     users: Users                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    write_a_reply: כתיבת תגובה...
+    you: את/ה                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -569,11 +563,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: מנהל
+    admins: מנהלים
+    guest: אורח
+    guests: אורחים
+    member: משתמש
+    members: משתמשים
+    mod: אחראי
+    mods: אחראיים
