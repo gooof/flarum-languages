@@ -15,34 +15,35 @@ Please make updates only at https://www.transifex.com/projects/p/flarum/
 ## Currently 31 languages available
 | English name        | Native name           | ISO  |
 | ------------- |:-------------:| -----:|
-| Albanian |  | sq |
-| Arabic |  | ar |
-| Azerbaijani |  | az |
-| Bengali |  | bn |
-| Chinese (Taiwan) |  | zh_traditional |
-| Chinese |  | zh_simplified |
-| Dutch |  | nl |
-| Estonian |  | et |
-| Finnish |  | fi |
-| French |  | fr |
+| Albanian | Shqip | sq |
+| Arabic | العربية | ar |
+| Azerbaijani | Azerbaijani | az |
+| Bengali | বাংলা ভাষা | bn |
+| Chinese (Taiwan) | 正體中文 | zh_traditional |
+| Chinese | 简体中文 | zh_simplified |
+| Dutch | Nederlands | nl |
+| English | English | en |
+| Estonian | eesti keel | et |
+| Finnish | Suomi | fi |
+| French | Français | fr |
 | German | Deutsch | de |
-| Greek |  | el |
-| Hebrew |  | he |
-| Hungarian |  | hu |
-| Indonesian |  | id |
-| Italian |  | it |
-| Japanese |  | ja |
-| Korean |  | ko |
+| Greek | Ελληνικά | el |
+| Hebrew | עברית | he |
+| Hungarian | Magyar | hu |
+| Indonesian | Bahasa Indonesia | id |
+| Italian | Italiano | it |
+| Japanese | 日本語 | ja |
+| Korean | 韓國語 | ko |
 | Malaysia | Malay | my |
-| Norwegian Bokmål |  | nb |
-| Norwegian Nynorsk |  | nn |
-| Persian |  | fa |
-| Polish |  | pl |
-| Portuguese (Brazil) |  | pt_br |
-| Romanian |  | ro |
-| Russian |  | ru |
-| Spanish |  | es |
-| Swedish |  | sv |
-| Turkish |  | tr |
-| Ukrainian |  | uk |
-| Vietnamese |  | vi |
+| Norwegian Bokmål | Norwegian Bokmål | nb |
+| Norwegian Nynorsk | Norwegian Nynorsk | nn |
+| Persian | فارسی | fa |
+| Polish | Polski | pl |
+| Portuguese (Brazil) | Português Brasileiro | pt_br |
+| Romanian | Română | ro |
+| Russian | Русский | ru |
+| Spanish | Español | es |
+| Swedish | Svenska | sv |
+| Turkish | Türkçe | tr |
+| Ukrainian | Українська | uk |
+| Vietnamese | Tiếng Việt | vi |
