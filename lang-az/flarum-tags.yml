@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Rəng
+      delete_tag_button: Etiket Sil
+      delete_tag_confirmation: "Bu Etiketi silmək istədiyinzə əminsiz? Tag mövzuları silinməyəcək."
+      description_label: Açıqlama
+      hide_label: Bütün mövzular səhifəsində göstərmə
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Adres(slug)
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Mövzuları təşkil etmək üçün mövcud etiket siyahısını düzəldin.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Etiketi redaktə etməyə icazə verin
+      restrict_by_tag_heading: Etiketə görə qısıtla
+      tag_discussions_label: Etiket mövzuları
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " ilə "
+      required_primary_heading: Məcburi Əsas Etiket Sayısı
+      required_primary_text: Mövzuya daxil edilməli olan minimum və maksimum Əsas etiket sayını daxil edin.
+      required_secondary_heading: Məcburi İkincil Etiket Sayısı
+      required_secondary_text: Mövzuya daxil edilməli olan minimum və maksimum ikinci etiket sayısını daxil edin.
+      title: Etiket Ayarları
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Etiketlər mövzuları kateqoriyalara ayırmaq üçün istifadə olunur. Əsas etiketlər ənənəvi forum kateqoriyalarına aiddir: onlar iki səviyyəli hiyerarşidə təşkil edilə bilər. İkinci etiketlərdə hiyerarşi və ya sifariş yoxdur və mikro kateqoriyaya aiddir."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Əsas Etiketlər
+      secondary_heading: İkinici Etiketlər
+      settings_button: Ayarlar
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Bir əsas etiket seçin|{count} əsas etiket seçin"
+      choose_secondary_placeholder: "1 etiket daha seçin|{count} etiket daha seçin"
+      edit_title: "{title} için etiketləri redaktə edin"
+      submit_button: => core.ref.okay
+      title: Mövzunuz üçün etiketləri seçin
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Etiket Seçin
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Etiketləri Redaktə et
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Daha...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Etiketlənməmiş
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} {tagsAdded} etiketini əlavə etdi."
+      added_and_removed_tags_text: "{username} {tagsAdded} etiketini əlavə etd və {tagsRemoved} etiketini sildi."
+      removed_tags_text: "{username} {tagsRemoved} etiketini sildi."
+      tags_text: "{tags}|{tags}"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Silinmiş
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Etiket Yarat
+    name: Ad
+    tags: Etiketlər

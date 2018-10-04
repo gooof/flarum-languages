@@ -24,7 +24,7 @@ validation:
   email: "The :attribute must be a valid email address."
   exists: "The selected :attribute is invalid."
   file: "The :attribute must be a file."
-  filled: "The :attribute field is required."
+  filled: "The :attribute field must have a value."
   image: "The :attribute must be an image."
   in: "The selected :attribute is invalid."
   in_array: "The :attribute field does not exist in :other."
@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "사용자이름은 문자, 숫자, 대시(-)만 포함될 수 있습니다."

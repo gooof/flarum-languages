@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Ära järgi
-      unignore_button: Ära ignoreeri
+      unfollow_button: İzləmə
+      unignore_button: Gizləmə
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} postitas"
+      new_post_text: "{username} göndərdi"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automaatselt järgi arutelusid, millele ma vastan
-      notify_new_post_label: Keegi postitab arutelus, mida ma jälgin
+      follow_after_reply_label: Mən yazdığım mövzuları avtomatik olaraq izləyint
+      notify_new_post_label: İzlədiyim mövzularda biri mesaj göndərərsə
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Teatage kõigist vastustest.
+      following_text: Bütün cavablar bildiriləcəkdir.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Kunagi ei teatata. Peida arutelu loendist.
-      not_following_button: Ei Järgi
-      not_following_text: "Teavitatakse ainult siis, kui @mainitakse."
-      notify_alert_tooltip: Hankige foorumiteade, kui on uusi postitusi
-      notify_email_tooltip: Hankige email, kui on uusi postitusi
+      ignoring_text: Heç vaxt bildirilməyəcək. Mövzu siyahısından gizlənəcək.
+      not_following_button: İzləmir
+      not_following_text: "@sizdən bəhs edildikdə bildiriləcək."
+      notify_alert_tooltip: Yeni mesajlar verildikdə forum bildirişləri alın
+      notify_email_tooltip: Yeni mesaj olduqda e-poçt bildirişini alın
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Järgi
-    following: Järgid
-    ignoring: Ignoreerid
+    follow: İzlə
+    following: İzləyir
+    ignoring: Gizlənir

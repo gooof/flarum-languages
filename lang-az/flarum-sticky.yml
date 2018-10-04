@@ -1,4 +1,4 @@
-flarum-lock:
+flarum-sticky:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,29 +9,29 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Luba lukustada arutelusi
+      sticky_discussions_label: Mövzu sabitləmə
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Lukus
+      sticky_tooltip: => flarum-sticky.ref.sticky
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Lukusta
-      unlock_button: Ava
-
-    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
-    notifications:
-      discussion_locked_text: "{username} lukustas"
+      sticky_button: => Sabitlə
+      unsticky_button: Sabitləmə
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} lukustas arutelu."
-      discussion_unlocked_text: "{username} avas arutelu."
+      discussion_stickied_text: "{username} mövzunu sabitlədi."
+      discussion_unstickied_text: "{username} mövzunudan sabitləməyi qaldırdı."
 
-    # These translations are used in the Settings page.
-    settings:
-      notify_discussion_locked_label: Keegi lukustab arutelu, mille alustasin
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    sticky: Sabit

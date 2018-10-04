@@ -1,4 +1,4 @@
-flarum-sticky:
+flarum-approval:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,24 +9,24 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Luba kleepida arutelu
+      approve_posts_label: Mesajı təsdiqləmə
+      reply_without_approval_label: Mövzuya icazə olmadan cavab vermə
+      start_discussions_without_approval_label: İcazəyə gərək qalmadan mövzu yaratma
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: => flarum-sticky.ref.sticky
+      awaiting_approval_tooltip: => flarum-approval.ref.awaiting_approval
 
-    # These translations are used by the discussion control buttons.
-    discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: Eemalda kleepuvus
+    # These translations are displayed in the post header.
+    post:
+      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
 
-    # These translations are displayed between posts in the post stream.
-    post_stream:
-      discussion_stickied_text: "{username} kleepis arutelu."
-      discussion_unstickied_text: "{username} eemaldas kleepuvuse arutelult."
+    # These translations are used by the post control buttons.
+    post_controls:
+      approve_button: Təstiq et
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: Kleepuv
+    awaiting_approval: Təstiq Gözləyir

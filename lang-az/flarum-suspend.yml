@@ -9,25 +9,25 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: 사용자 중단
+      suspend_users_label: İstifadəçi banlama
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: 무기한으로 중단
-      limited_time_label: 제한된 시간동안 중단...
-      limited_time_days_text: " 일"
-      not_suspended_label: 중단되지 않음
-      status_heading: 중단 상태
+      indefinitely_label: Ban müddətsizdir
+      limited_time_label: Qısa müddətə Ban...
+      limited_time_days_text: " gün"
+      not_suspended_label: Ban deyil
+      status_heading: Balı vəziyyət
       submit_button: => core.ref.save_changes
-      title: "{username} 중단하기"
+      title: "Ban et {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: 중단됨
+      suspended_tooltip: Banlı
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: 중단
+      suspend_button: Banla
