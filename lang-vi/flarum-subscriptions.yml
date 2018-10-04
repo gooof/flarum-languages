@@ -15,7 +15,7 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
+      unfollow_button: Bỏ theo dõi
       unignore_button: Unignore
 
     # These translations are used on the index page, peripheral to the discussion list.
@@ -29,19 +29,19 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      notify_new_post_label: Có phản hồi mới trong bài viết bạn theo dõi
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Nhận thông báo mỗi khi có phản hồi mới.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
+      ignoring_text: Ngừng nhận thông báo. Ẩn các danh sách thảo luận.
+      not_following_button: Chưa theo dõi
       not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      notify_alert_tooltip: Nhận thông báo khi có bài viết mới
+      notify_email_tooltip: Nhận email mỗi khi có bài viết mới
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Theo dõi
+    following: Đang theo dõi
+    ignoring: Bỏ qua

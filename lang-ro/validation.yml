@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Numele de utilizator poate conține doar litere, numere și caracterul \"_\"."
