@@ -4,7 +4,7 @@ This repository is daily synced with our Transifex project. It includes all sele
 Untranslated entries in all languages except english will filled with english source strings.
 
 
-.com Internationalisation (i18n)
+Internationalisation (i18n) ([Flarums.com](https://www.flarums.com))
 ================
 
 This repository is daily synced with our Transifex project. 
