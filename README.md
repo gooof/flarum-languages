@@ -12,7 +12,7 @@ This repository is daily synced with our Transifex project.
 Please make updates only at https://www.transifex.com/projects/p/flarum/
 
 
-## Currently 31 languages available
+## Currently 32 languages available
 | English name        | Native name           | ISO  |
 | ------------- |:-------------:| -----:|
 | Albanian | Shqip | sq |
