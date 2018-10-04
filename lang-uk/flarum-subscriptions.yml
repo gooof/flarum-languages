@@ -15,33 +15,33 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Відписатись
+      unignore_button: Не ігнорувати
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: => flarum-subscriptions.ref.following
+      following_link: Дискусії, на які я підписаний
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} відповів(ла)"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Автоматично підписуватися на дискусії, в яких я відповідаю
+      notify_new_post_label: Хтось відповів в дискусіях, на які я підписаний
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Повідомляти про всі відповіді.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Не повідомляти. Приховати в списку дискусій.
+      not_following_button: Відписатись
+      not_following_text: "Повідомляти лише коли @згадують."
+      notify_alert_tooltip: Отримувати сповіщення форуму при появі нових повідомлень
+      notify_email_tooltip: Отримувати листи на E-mail при появі нових повідомлень
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Підписатись
+    following: Підписатись
+    ignoring: Ігнорувати

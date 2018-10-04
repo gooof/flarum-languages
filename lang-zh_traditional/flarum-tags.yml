@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
+      color_label: 顏色
       delete_tag_button: Delete Tag
       delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
       description_label: Description
@@ -50,7 +50,7 @@ flarum-tags:
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Primary Tags
       secondary_heading: Secondary Tags
-      settings_button: Settings
+      settings_button: 設定
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -97,5 +97,5 @@ flarum-tags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     create_tag: Create Tag
-    name: Name
+    name: 名稱
     tags: Tags

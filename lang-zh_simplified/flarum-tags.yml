@@ -50,7 +50,7 @@ flarum-tags:
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Primary Tags
       secondary_heading: Secondary Tags
-      settings_button: Settings
+      settings_button: 个人设置
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -97,5 +97,5 @@ flarum-tags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     create_tag: Create Tag
-    name: Name
+    name: 名称
     tags: Tags

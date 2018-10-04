@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten."

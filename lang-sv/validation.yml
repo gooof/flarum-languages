@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Användarnamnet får endast innehålla bokstäver, nummer och bindestreck."

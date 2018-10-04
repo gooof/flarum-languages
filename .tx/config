@@ -1,6 +1,6 @@
 [main]
 host = https://www.transifex.com
-lang_map = zh_TW:zh_cmn_hant, zh:zh_cmn_hans, pt_BR:pt_br, sr_RS:sr_x_cyr, es_AR:es_ar, es_MX:es_mx, ms_MY:my
+lang_map = zh_TW:zh_traditional, zh:zh_simplified, pt_BR:pt_br, sr_RS:sr_x_cyr, es_AR:es_ar, es_MX:es_mx, ms_MY:my
 
 [flarum.coreyml]
 file_filter = lang-<lang>/core.yml

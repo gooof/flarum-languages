@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Kullanıcı adı sadece harfler, rakamlar ve alt çizgi içerebilir."

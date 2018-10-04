@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: 取消关注
+      unignore_button: 取消忽视
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} 回复了你关注的内容"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: 自动关注我回复的话题
+      notify_new_post_label: 关注的话题被回复
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: 当有人回复此话题时提醒我
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: 不接收任何提醒并隐藏话题
+      not_following_button: 常规
+      not_following_text: "仅在有人@提到我时提醒我"
+      notify_alert_tooltip: 有新回复时通知提醒
+      notify_email_tooltip: 有新回复时发送邮件
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: 关注
+    following: 关注
+    ignoring: 忽视
