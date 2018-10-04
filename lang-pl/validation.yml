@@ -21,7 +21,7 @@ validation:
   digits_between: "The :attribute must be between :min and :max digits."
   dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
-  email: "The :attribute must be a valid email address."
+  email: "Pole :attribute musi zawierać prawidłowy adres email."
   exists: "The selected :attribute is invalid."
   file: "The :attribute must be a file."
   filled: "The :attribute field is required."
@@ -46,7 +46,7 @@ validation:
   numeric: "The :attribute must be a number."
   present: "The :attribute field must be present."
   regex: "The :attribute format is invalid."
-  required: "The :attribute field is required."
+  required: "Pole :attribute jest wymagane."
   required_if: "The :attribute field is required when :other is :value."
   required_unless: "The :attribute field is required unless :other is in :values."
   required_with: "The :attribute field is required when :values is present."
@@ -65,16 +65,16 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
+    username: nazwa użytkownika
+    password: hasło
     email: email
-    title: title
-    content: content
+    title: tytuł
+    content: treść
     name_singular: singular name
     name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    tag_count_primary: ilość głównych tagów
+    tag_count_secondary: ilość dodatkowych tagów
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Nazwa użytkownika może zawierać tylko litery, cyfry i myślniki."

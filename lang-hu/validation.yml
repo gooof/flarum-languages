@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "A felhasználónév csak betűket, számokat és gondolatjelet tartalmazhat."

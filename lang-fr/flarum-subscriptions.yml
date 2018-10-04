@@ -15,33 +15,33 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Se désabonner
+      unignore_button: Ne plus ignorer
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: => flarum-subscriptions.ref.following
+      following_link: Abonnements
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} a publié un message"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Suivre automatiquement les discussions auxquelles j’ai répondu
+      notify_new_post_label: Quelqu’un publie dans une discussion que je suis
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: M’envoyer une notification lorsqu’une réponse est publiée.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Ne jamais m’envoyer de notification. Masquer de la liste de discussions.
+      not_following_button: Non abonné
+      not_following_text: "Ne m’envoyer une notification que lorsque je suis @mentionné."
+      notify_alert_tooltip: Recevoir une notification sur le forum lorsque de nouveaux messages sont publiés
+      notify_email_tooltip: Recevoir un courriel lorsque de nouveaux messages sont publiés
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Suivre
+    following: Abonné
+    ignoring: Ignorée

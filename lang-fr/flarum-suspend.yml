@@ -21,7 +21,7 @@ flarum-suspend:
       limited_time_days_text: " days"
       not_suspended_label: Not suspended
       status_heading: Suspension Status
-      submit_button: => core.ref.save_changes
+      submit_button: => core.ref.okay
       title: "Suspend {username}"
 
     # These translations are displayed as tooltips for user badges.

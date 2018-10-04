@@ -77,4 +77,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "ユーザー名には、文字、数字、およびダッシュのみを使用できます。"
