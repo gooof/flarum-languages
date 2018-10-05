@@ -526,7 +526,7 @@ core:
     all_discussions: Все дискуссии
     change_email: Изменить e-mail
     change_password: Изменить пароль
-    color: Color                                 # Referenced by flarum-tags.yml
+    color: Цвет                                 # Referenced by flarum-tags.yml
     confirm_password: Подтвердить пароль
     confirmation_email_sent: "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.

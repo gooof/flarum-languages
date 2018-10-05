@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "Nowy post użytkownika {username}"
+      new_post_text: "{username} odpowiedział"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatycznie obserwuj dyskusję, w której uczestniczę
-      notify_new_post_label: Ktoś odpowie w dyskusji, którą obserwuję
+      follow_after_reply_label: Automatycznie obserwuj dyskusje, w których mogę odpowiedzieć
+      notify_new_post_label: Ktoś odpowiada w dyskusji, którą obserwuję
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Powiadamiaj o wszystkich odpowiedziach.
+      following_text: Bądź powiadamiany o wszystkich odpowiedziach.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Nigdy nie powiadamiaj. Ukryj na liście dyskusji.
-      not_following_button: Przestań obserwować
-      not_following_text: "Powiadom tylko, gdy ktoś mnie @wspomni."
-      notify_alert_tooltip: Powiadom na stronie, gdy pojawi się nowy wpis
-      notify_email_tooltip: Wyślij email, gdy pojawi się nowy wpis
+      ignoring_text: Nigdy nie bądź powiadamiany. Ukryj z listy dyskusji.
+      not_following_button: Nie obserwujesz
+      not_following_text: "Bądź powiadamiany tylko, kiedy zostaniesz @wspomniany."
+      notify_alert_tooltip: Dostań powiadomienie na forum, kiedy pojawią się nowe posty
+      notify_email_tooltip: Dostań wiadomość e-mail, kiedy pojawią się nowe posty
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -51,4 +51,4 @@ flarum-subscriptions:
   ref:
     follow: Obserwuj
     following: Obserwujesz
-    ignoring: Ignoruj
+    ignoring: Ignorujesz

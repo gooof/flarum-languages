@@ -9,29 +9,29 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Zakończ dyskusję
+      lock_discussions_label: Zamykaj dyskusje
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Zakończona
+      locked_tooltip: Zamknięta
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Zakończ
-      unlock_button: Wznów
+      lock_button: Zamknij
+      unlock_button: Otwórz
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "Zakończona przez {username}"
+      discussion_locked_text: "{username} zamknął"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} zakończył(a) dyskusję."
-      discussion_unlocked_text: "{username} wznowił(a) dyskusję."
+      discussion_locked_text: "{username} zamknął dyskusję."
+      discussion_unlocked_text: "{username} otworzył dyskusję."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Ktoś zakończył moją dyskusję
+      notify_discussion_locked_label: Ktoś zamyka dyskusję, którą rozpocząłem
