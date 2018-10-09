@@ -103,9 +103,3 @@ file_filter = lang-<lang>/validation.yml
 source_file = lang-en/validation.yml
 source_lang = en
 type = YML
-
-[flarum.configjs]
-file_filter = lang-<lang>/config.js
-source_file = lang-en/config.js
-source_lang = en
-type = TXT
